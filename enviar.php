@@ -15,7 +15,8 @@ $mensaje .= "Su numero es: " . $telefono . " \r\n";
 $mensaje .= "Mensaje: " . $empresa . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'jon.mateobe@elorrieta-errekamari.com';
+$para = 'cristaleriaelabra@gmail.com';
+
 $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
