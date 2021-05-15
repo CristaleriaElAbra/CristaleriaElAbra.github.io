@@ -1,0 +1,8 @@
+body{
+    /*FONDO BLANCO SATINADO*/
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#fotomapa:hover{
+    filter: opacity(.5);
+}
